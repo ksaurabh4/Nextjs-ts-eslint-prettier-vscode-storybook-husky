@@ -1,8 +1,8 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint:recomended"],
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
   "globals": { "React": "readonly" },
   "rules": {
     // "no-unused-vars":"error"
-    "no-unused-vars": [1, { "args": "after-used", "argIgnorePattern": "^_" }]
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
   }
 }
