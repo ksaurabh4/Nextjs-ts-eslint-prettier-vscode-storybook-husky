@@ -1,0 +1,5 @@
+.yarn
+.next
+.build
+node_modules
+dist
